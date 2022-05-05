@@ -1,4 +1,7 @@
 {
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
     "editor.detectIndentation": false,
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
@@ -6,6 +9,7 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.rulers":
+
     [
         80,
         120
@@ -14,9 +18,11 @@
     "editor.snippetSuggestions": "top",
     "editor.trimAutoWhitespace": true,
     "editor.useTabStops": true,
-    "editor.fontSize": 17,
+    "editor.fontSize": 14,
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
+    "editor.hover.enabled": false,
+
     "emmet.includeLanguages":
     {
         "erb": "html"
@@ -27,7 +33,6 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.iconTheme": "vscode-great-icons",
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -62,7 +67,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -75,5 +79,23 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
-}
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "window.zoomLevel": -1,
+    "liveServer.settings.donotVerifyTags": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Abyss"
+
+
+  }
